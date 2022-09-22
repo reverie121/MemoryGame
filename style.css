@@ -1,18 +1,38 @@
+body {
+    background-color: darkslategrey;
+}
+
 #game div {
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 10px;
     aspect-ratio: 2.5 / 3.5;
-    width: 22%;
+    width: 14%;
     margin: 1%;
     display: inline-block;
-    background-image: linear-gradient(to bottom right, purple, green)
+    background-image: linear-gradient(to bottom right, lightcyan, darkturquoise)
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #game div {
+        width: 30%;
+    }
 }
 
 h1 {
     text-align: center;
+    color: lightcyan;
+    font-size: 6vw;
+    font-family: 'Righteous', cursive;
+    margin: 2px;
 }
 
 h2 {
     text-align: center;
+    color: lightcyan;
+    border: black;
+    font-size: 3vw;
+    font-family: 'Righteous', cursive;
+    margin: 1px;
     ;
 }

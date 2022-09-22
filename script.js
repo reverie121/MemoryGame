@@ -8,18 +8,18 @@ let g;
 let b;
 
 const COLORS = [
-    "red",
-    "blue",
-    "green",
-    "orange",
-    "purple",
-    "pink",
-    "red",
-    "blue",
-    "green",
-    "orange",
-    "purple",
-    "pink"
+    "crimson",
+    "cornflowerblue",
+    "mediumseagreen",
+    "coral",
+    "orchid",
+    "gold",
+    "crimson",
+    "cornflowerblue",
+    "mediumseagreen",
+    "coral",
+    "orchid",
+    "gold"
 ];
 
 
@@ -96,13 +96,13 @@ function handleCardClick(event) {
             }
             setTimeout(() => {
                 count = [];
-            }, 1000)
+            }, 500)
         } else { // Not a match
             setTimeout(function() {
                 let noMatch = document.getElementsByClassName("flipped");
                 for (let i = noMatch.length - 1; i >= 0; i--) {
                     noMatch[i].style.backgroundColor = "none";
-                    noMatch[i].style.backgroundImage = "linear-gradient(to bottom right, purple, green)";
+                    noMatch[i].style.backgroundImage = "linear-gradient(to bottom right, lightcyan, darkturquoise)";
                     noMatch[i].classList.toggle("flipped");
                 }
                 count = [];
