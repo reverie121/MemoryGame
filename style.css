@@ -1,0 +1,18 @@
+#game div {
+    border: 1px solid black;
+    border-radius: 10px;
+    aspect-ratio: 2.5 / 3.5;
+    width: 22%;
+    margin: 1%;
+    display: inline-block;
+    background-image: linear-gradient(to bottom right, purple, green)
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    ;
+}
